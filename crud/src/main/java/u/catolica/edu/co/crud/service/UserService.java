@@ -1,6 +1,5 @@
 package u.catolica.edu.co.crud.service;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import u.catolica.edu.co.crud.model.User;
 import u.catolica.edu.co.crud.repository.UserRepository;
@@ -12,7 +11,7 @@ import java.util.Optional;
 public class UserService {
     private final UserRepository userRepository;
 
-    public UserService(UserRepository userRepository){
+    public UserService(UserRepository userRepository) {
         this.userRepository = userRepository;
     }
 
